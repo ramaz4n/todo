@@ -1,0 +1,19 @@
+.deleteBtn{
+	cursor: pointer;
+	color: red;
+}
+.listItem{
+	width: 350px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 18px;
+	margin-top: 3px;
+	background-color: rgb(245, 241, 241);
+	border: 1px solid rgb(161, 160, 160);
+	border-radius: 4px;
+	padding: 0 5px;
+}
+.input{
+	cursor: pointer;
+}

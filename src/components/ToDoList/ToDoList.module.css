@@ -1,0 +1,49 @@
+.ToDoList{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 30px;
+}
+li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+input:checked + span{
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+.ulWrap{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+.todoinput{
+	margin-top: 25px;
+}
+.todosWrap1, .todosWrap2, .todosWrap3{
+	width: 420px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+}
+.todosWrap1{
+	background-color: rgb(247, 164, 162);
+}
+.todosWrap2{
+	background-color: rgb(218, 245, 225);
+}
+.todosWrap3{
+	background-color: rgb(179, 248, 198);
+}
+.todoUl{
+	padding: 0;
+	margin: 0;
+}
